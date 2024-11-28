@@ -591,6 +591,7 @@ address {
   cursor: pointer;
   width: 24px;
   height: 24px;
+  padding: 0;
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -769,6 +770,9 @@ address {
 .modal-input-checkbox {
   position: absolute;
   margin-bottom: 4px;
+}
+
+.visually-hidden {
   visibility: hidden;
 }
 
